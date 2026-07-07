@@ -14,7 +14,8 @@ make
 ## Install (must be run as root)
 
 ```sh
-sudo make install
+su
+make install
 ```
 
 This installs the binary with the setuid-root bit at
